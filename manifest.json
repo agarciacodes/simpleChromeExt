@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Take to Shimmy",
+  "description": "Take you to FB page",
+  "version": "1.0",
+  "content_scripts": [{
+        "matches": ["https://*/*"],
+        "html": ["UI.html"],
+        "js": ["content.js"]
+
+}]
+
+}
